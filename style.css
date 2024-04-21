@@ -618,6 +618,19 @@ footer li , footer p{
         display: block;
     }
 }
+
+@media screen and (max-width: 890px) {
+    form aside{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    #Products article:nth-child(2){
+        background-image: url(mbr-1.jpeg);
+        background-size: cover;
+        background-position: center;
+    }
+
+}
 @media screen and (max-width: 820px) {
     #deal .column {
         flex-basis: 50%;
@@ -633,18 +646,6 @@ footer li , footer p{
     #follow div {
         flex-basis: 31%;
     }
-}
-@media screen and (max-width: 890px) {
-    form aside{
-        flex-direction: column;
-        row-gap: 20px;
-    }
-    #Products article:nth-child(2){
-        background-image: url(images/mbr-1.jpeg);
-        background-size: cover;
-        background-position: center;
-    }
-
 }
 @media screen and (max-width: 665px) {
     #Products article {
@@ -663,7 +664,7 @@ footer li , footer p{
         flex-basis: 48%;
     }
     #Products article:first-child{
-        background-image: url(images/product2.jpg);
+        background-image: url(product2.jpg);
         background-size: 70%   ;
         background-position: 70% center;
     }
