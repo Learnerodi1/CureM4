@@ -706,11 +706,11 @@ section#hero img{
         flex-basis: 100%;
     }
     #Products article:first-child{
-        background-image: url(images/product2.jpg);
+        background-image: url(product2.jpg);
         background-size:cover ;
     }
     #Products article:nth-child(2){
-        background-image: url(images/mbr-1.jpeg);
+        background-image: url(mbr-1.jpeg);
         background-position:  center;
         background-size: cover;
     }
@@ -737,15 +737,15 @@ section#hero img{
 }
 @media screen and (max-width:320px) {
     #Products article:first-child{
-        background-image: url(images/product2.jpg);
+        background-image: url(product2.jpg);
         background-position: 20px center;
     }
     #Products article:nth-child(2){
-        background-image: url(images/mbr-1.jpeg);
+        background-image: url(mbr-1.jpeg);
         background-position: -180px center;
     }
     #Products article:nth-child(3){
-        background-image: url(images/mbr-2.jpeg);
+        background-image: url(mbr-2.jpeg);
         background-position: center;
     }
 }
